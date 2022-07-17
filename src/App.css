@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -14,8 +15,27 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FA43B4;
     font-weight: bold;
     padding: 1rem 2rem;
+}
+
+button {
+    background-color: #fff;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    border: #AD0C70 1px solid;
+    color: #AD0C70;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: #FA43B4;
+    color: #fff;
+    transition: .2s transform ease-in-out;
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+button:focus {
+    box-shadow: inset 6.5em 0 0 0 #fff;
 }
